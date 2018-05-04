@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ResourcesStylesExemplos"
+             Style="{DynamicResource corFundoStyle}"
+             x:Class="ResourcesStylesExemplos.MainPage" Padding="0,20,0,0">
+
+    <!--Manual Resource-->
+    <!--<StackLayout>
+        <Label Text="Login" BackgroundColor="{DynamicResource backgroundColor}" TextColor="{DynamicResource textColor}" FontSize="24" />
+        <Entry BackgroundColor="{DynamicResource backgroundColor}" TextColor="{DynamicResource textColor}" />
+        <Label Text="Senha" BackgroundColor="{DynamicResource backgroundColor}" TextColor="{DynamicResource textColor}" FontSize="24" />
+        <Entry BackgroundColor="{DynamicResource backgroundColor}" TextColor="{DynamicResource textColor}" />
+    </StackLayout>-->
+
+    <!--Style-->
+    <!--<StackLayout>
+        <Label Text="Login"   FontSize="24" />
+        <Entry />
+        <Label Text="Senha"  FontSize="24" />
+        <Entry  />
+    </StackLayout>-->
+
+    <StackLayout Spacing="20">
+        <Label  Text = "Cor de Fundo:" />
+        <Entry x:Name="txtCorFundo" />
+        <Label Text = "Cor do Texto:" />
+        <Entry x:Name="txtCorTexto" />
+        <Button x:Name="btnTema" TextColor="{DynamicResource corTexto}" Text="Alterar o Tema" Clicked="btnTemaClicked" />
+    </StackLayout>
+
+</ContentPage>

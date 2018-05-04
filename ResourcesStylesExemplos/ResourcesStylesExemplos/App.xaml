@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ResourcesStylesExemplos.App">
+    <Application.Resources>
+        <!--<ResourceDictionary>
+            <Color x:Key="backgroundColor">White</Color>
+            <Color x:Key="textColor">Pink</Color>
+            <Color x:Key="outroTextColor">Blue</Color>
+
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource textColor}" />
+            </Style>
+            <Style x:Key="backgroundStyle" TargetType="VisualElement">
+                <Setter Property="BackgroundColor" Value="{DynamicResource backgroundColor}" />
+            </Style>
+            <Style x:Key="meuOutroLabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource outroTextColor}" />
+            </Style>
+            
+            
+        </ResourceDictionary>-->
+        <ResourceDictionary>
+            <Color x:Key="corFundo">White</Color>
+            <Color x:Key="corTexto">Pink</Color>
+
+
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource corTexto}" />
+            </Style>
+            <Style x:Key="corFundoStyle" TargetType="VisualElement">
+                <Setter Property="BackgroundColor" Value="{DynamicResource corFundo}" />
+            </Style>
+           
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
